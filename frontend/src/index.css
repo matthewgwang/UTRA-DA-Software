@@ -1,0 +1,39 @@
+:root {
+    --primary-green: #6fbf8f;
+    --light-green: #e8f5ee;
+    --text-dark: #1f2933;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--light-green);
+    color: var(--text-dark);
+  }
+  
+  nav {
+    background-color: var(--primary-green);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
