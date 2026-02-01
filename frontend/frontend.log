@@ -1,0 +1,159 @@
+
+> utra-da-frontend@1.0.0 dev
+> vite
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  VITE v5.4.21  ready in 99 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+8:39:30 PM [vite] hmr update /src/App.jsx
+8:39:40 PM [vite] hmr update /src/App.jsx
+8:39:56 PM [vite] hmr update /src/index.css
+9:06:17 PM [vite] hmr update /src/App.jsx
+9:06:53 PM [vite] hmr update /src/App.jsx
+9:07:04 PM [vite] hmr update /src/index.css
+9:24:34 PM [vite] hmr update /src/App.jsx
+9:24:54 PM [vite] hmr update /src/App.jsx
+9:25:04 PM [vite] hmr update /src/index.css
+9:47:15 PM [vite] hmr update /src/App.jsx
+9:50:51 PM [vite] page reload public/visualizer.html
+9:50:51 PM [vite] page reload public/visualizer.html
+9:51:15 PM [vite] hmr update /src/App.jsx
+9:54:56 PM [vite] page reload public/visualizer.html
+9:56:23 PM [vite] hmr update /src/App.jsx
+10:22:10 PM [vite] hmr update /src/App.jsx
+10:22:11 PM [vite] hmr update /src/App.jsx
+10:22:13 PM [vite] hmr update /src/App.jsx
+10:47:00 PM [vite] hmr update /src/PathAnimator.jsx
+10:47:14 PM [vite] hmr update /src/PathAnimator.jsx
+10:47:26 PM [vite] hmr update /src/PathAnimator.jsx
+10:47:38 PM [vite] hmr update /src/PathAnimator.jsx
+10:47:49 PM [vite] hmr update /src/animator.css
+10:51:41 PM [vite] hmr update /src/PathAnimator.jsx
+10:51:50 PM [vite] hmr update /src/PathAnimator.jsx
+10:52:00 PM [vite] hmr update /src/PathAnimator.jsx
+10:52:07 PM [vite] hmr update /src/PathAnimator.jsx
+10:52:20 PM [vite] hmr update /src/PathAnimator.jsx
+10:52:35 PM [vite] hmr update /src/PathAnimator.jsx
+10:52:51 PM [vite] hmr update /src/PathAnimator.jsx
+10:53:00 PM [vite] hmr update /src/animator.css
+10:53:14 PM [vite] hmr update /src/animator.css
+11:49:56 PM [vite] hmr update /src/PathAnimator.jsx
+11:56:02 PM [vite] hmr update /src/PathAnimator.jsx
+11:57:43 PM [vite] hmr update /src/PathAnimator.jsx
+11:57:54 PM [vite] hmr update /src/PathAnimator.jsx
+11:58:09 PM [vite] hmr update /src/PathAnimator.jsx
+12:03:57 AM [vite] hmr update /src/PathAnimator.jsx
+12:04:05 AM [vite] hmr update /src/PathAnimator.jsx
+12:04:11 AM [vite] hmr update /src/PathAnimator.jsx
+12:04:24 AM [vite] hmr update /src/PathAnimator.jsx
+12:04:32 AM [vite] hmr update /src/PathAnimator.jsx
+12:04:40 AM [vite] hmr update /src/animator.css
+12:08:34 AM [vite] hmr update /src/PathAnimator.jsx
+12:08:49 AM [vite] hmr update /src/PathAnimator.jsx
+12:13:36 AM [vite] hmr update /src/PathAnimator.jsx
+12:13:44 AM [vite] hmr update /src/animator.css
+12:14:02 AM [vite] hmr update /src/PathAnimator.jsx
+12:14:56 AM [vite] hmr update /src/App.jsx
+12:15:03 AM [vite] hmr update /src/animator.css
+12:15:10 AM [vite] hmr update /src/PathAnimator.jsx
+12:15:16 AM [vite] hmr update /src/PathAnimator.jsx
+12:15:16 AM [vite] Internal server error: /Users/yuqiu/Desktop/UTRA-DA-Software/frontend/src/PathAnimator.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (381:4)
+
+  379 |         ))}
+  380 |       </div>
+> 381 |     </div>
+      |     ^
+  382 |   );
+  383 | }
+  384 |
+  Plugin: vite:react-babel
+  File: /Users/yuqiu/Desktop/UTRA-DA-Software/frontend/src/PathAnimator.jsx:381:4
+  379|          ))}
+  380|        </div>
+  381|      </div>
+     |      ^
+  382|    );
+  383|  }
+      at constructor (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4742:18)
+      at JSXParserMixin.jsxParseElement (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10986:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10981:21)
+      at JSXParserMixin.parseExprOp (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10947:27)
+      at JSXParserMixin.parseExprOps (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10908:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseExpression (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4632:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4711:36)
+      at JSXParserMixin.jsxParseElement (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/Users/yuqiu/Desktop/UTRA-DA-Software/frontend/node_modules/@babel/parser/lib/index.js:12798:21)
+12:15:29 AM [vite] hmr update /src/PathAnimator.jsx
+12:15:36 AM [vite] hmr update /src/animator.css
+12:31:06 AM [vite] hmr update /src/PathAnimator.jsx
+12:31:12 AM [vite] hmr update /src/PathAnimator.jsx
+12:38:33 AM [vite] hmr update /src/PathAnimator.jsx
+12:38:49 AM [vite] hmr update /src/PathAnimator.jsx
+12:38:59 AM [vite] hmr update /src/PathAnimator.jsx
+12:39:19 AM [vite] hmr update /src/PathAnimator.jsx
+12:39:30 AM [vite] hmr update /src/PathAnimator.jsx
+12:54:01 AM [vite] hmr update /src/PathAnimator.jsx
+12:55:23 AM [vite] hmr update /src/PathAnimator.jsx
+12:55:28 AM [vite] hmr update /src/PathAnimator.jsx
+12:56:55 AM [vite] hmr update /src/PathAnimator.jsx
+12:56:58 AM [vite] hmr update /src/animator.css
+1:13:27 AM [vite] hmr update /src/PathAnimator.jsx
+1:16:59 AM [vite] hmr update /src/PathAnimator.jsx
+1:17:26 AM [vite] hmr update /src/PathAnimator.jsx
+1:18:52 AM [vite] hmr update /src/PathAnimator.jsx
+1:19:11 AM [vite] hmr update /src/PathAnimator.jsx
+1:19:54 AM [vite] hmr update /src/PathAnimator.jsx
+1:30:58 AM [vite] hmr update /src/PathAnimator.jsx
+1:30:59 AM [vite] hmr update /src/PathAnimator.jsx
+2:30:00 AM [vite] hmr update /src/PathAnimator.jsx
+2:30:08 AM [vite] hmr update /src/PathAnimator.jsx
+2:30:17 AM [vite] hmr update /src/PathAnimator.jsx
+2:32:17 AM [vite] hmr update /src/PathAnimator.jsx
+2:34:33 AM [vite] hmr update /src/PathAnimator.jsx
+2:36:32 AM [vite] hmr update /src/PathAnimator.jsx
+2:38:06 AM [vite] hmr update /src/PathAnimator.jsx
+2:39:04 AM [vite] hmr update /src/PathAnimator.jsx
